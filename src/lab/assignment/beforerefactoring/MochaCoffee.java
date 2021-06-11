@@ -2,14 +2,14 @@ package lab.example.afterrefactoring;
 
 public class CapuccinoCoffee extends CoffeeMaker{
 
-	@Override
-	protected void addIngredients(){
-        System.out.println("Adding cocoa powder");
+   @Override
+   protected void addIngredients(){
+   	System.out.println("Adding cocoa powder");
         System.out.println("Adding hot milk");
     }
 
-	@Override
-	protected void finalTouch(){
+   @Override
+   protected void finalTouch(){
         System.out.println("Adding sugar");
     }
 }
